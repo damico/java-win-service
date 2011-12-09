@@ -11,3 +11,5 @@ The second thing is to enter in c:\javawinservice\ folder and edit the jws.prope
  # servicename=jettyservice 
  # execbatch=c:/myapp/startJavaProcess.bat 
  # lockfile=c:/myapp/myapp.lock 
+
+ - *servicename*: The name that will be used to log in Event Viewer 
