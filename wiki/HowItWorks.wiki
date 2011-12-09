@@ -23,3 +23,23 @@ The second thing is to enter in c:\javawinservice\ folder and edit the jws.prope
 cd c:\iptcfg\
 "c:\Program Files\java\jre\bin\java" -jar embeddedJettyApp.jar
 }}}
+
+ * This is an example of how to make your java program create a .lock file:
+{{{
+public void writeLockFile(String filename){
+		String prePid = ManagementFactory.getRuntimeMXBean().getName();
+		String pid = null;
+		for (int i = 0; i < prePid.length(); i++) if(prePid.charAt(i) == '@') pid = prePid.substring(0,i);
+		writeTextToFile(filename, pid);
+	}
+	
+	public void writeTextToFile(String filename, String text){
+		try {
+		    BufferedWriter out = new BufferedWriter(new FileWriter(filename));
+		    out.write(text);
+		    out.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}}}
