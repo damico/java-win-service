@@ -8,7 +8,7 @@ First of all let's understand the purpose of java-win-service. This application 
 
 To use java-win-service the first thing to do is to install it (http://java-win-service.googlecode.com/files/JavaWinServiceSetup.msi).
 
-The second thing is to enter in c:\javawinservice\ folder and edit the jws.properties file. This file has three important properties:
+The second thing is to enter in c:\javawinservice\ folder and edit the jws.properties file. Do not start the service without edit this file. This file has three important properties:
 
  # servicename=jettyservice 
  # execbatch=c:/myapp/startJavaProcess.bat 
@@ -26,7 +26,7 @@ cd c:\iptcfg\
 
  * This is an example of how to make your java program create a .lock file:
 {{{
-public void writeLockFile(String filename){
+        public void writeLockFile(String filename){
 		String prePid = ManagementFactory.getRuntimeMXBean().getName();
 		String pid = null;
 		for (int i = 0; i < prePid.length(); i++) if(prePid.charAt(i) == '@') pid = prePid.substring(0,i);
