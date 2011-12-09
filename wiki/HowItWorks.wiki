@@ -21,5 +21,5 @@ The second thing is to enter in c:\javawinservice\ folder and edit the jws.prope
  * This is an example of an execbatch property startJavaProcess.bat: 
 {{{
 cd c:\iptcfg\
-"c:\Program Files\java\jre\bin\java" -jar JavaIptProvisionerSERVER.jar
+"c:\Program Files\java\jre\bin\java" -jar embeddedJettyApp.jar
 }}}
