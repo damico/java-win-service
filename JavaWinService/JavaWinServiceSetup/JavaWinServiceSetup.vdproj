@@ -99,6 +99,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -304,7 +317,7 @@
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:JoseDamico"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
+        "ARPHELPLINK" = "8:http://java-win-service.googlecode.com"
         "Title" = "8:JavaWinServiceSetup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:JoseDamico"
@@ -633,7 +646,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:This is an OpenSource software. Test, use, contribute."
+                            "Value" = "8:This is an OpenSource software, licensed under EPL. Test, use, contribute. http://java-win-service.googlecode.com"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -796,7 +809,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:This is an OpenSource software. Test, use, contribute."
+                            "Value" = "8:This is an OpenSource software, licensed under EPL. Test, use, contribute. http://java-win-service.googlecode.com"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
