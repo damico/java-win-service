@@ -14,6 +14,6 @@ The second thing is to enter in c:\javawinservice\ folder and edit the jws.prope
  # execbatch=c:/myapp/startJavaProcess.bat 
  # lockfile=c:/myapp/myapp.lock 
 
- - *servicename*: The name that will be used to log in Event Viewer 
- - *execbatch*: The .bat file that will have the initialization command.
- - *lockfile*: A text file that will be create every time that the java program runs. This file must contains the PID number of java process.
+ * *servicename*: The name that will be used to log in Event Viewer 
+ * *execbatch*: The .bat file that will have the initialization command.
+ * *lockfile*: A text file that will be create every time that the java program runs. This file must contains the PID number of java process.
