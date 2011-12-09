@@ -1,0 +1,5 @@
+#this document explain how java-win-service works.
+
+= Introduction =
+
+First of all let's understand the purpose of java-win-service. This application was built to solve a common problem: Allow JavaSE programs that run through Command Line Interface, to run as Windows Services.
