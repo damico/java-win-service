@@ -6,4 +6,8 @@ First of all let's understand the purpose of java-win-service. This application 
 
 To use java-win-service the first thing to do is to install it (http://java-win-service.googlecode.com/files/JavaWinServiceSetup.msi).
 
-The second thing is to enter in c:\javawinservice\ folder and edit the jws.properties file.
+The second thing is to enter in c:\javawinservice\ folder and edit the jws.properties file. This file has three important properties:
+
+ # servicename=jettyservice 
+ # execbatch=c:/myapp/startJavaProcess.bat 
+ # lockfile=c:/myapp/myapp.lock 
