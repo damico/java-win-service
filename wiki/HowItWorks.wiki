@@ -17,3 +17,9 @@ The second thing is to enter in c:\javawinservice\ folder and edit the jws.prope
  * *servicename*: The name that will be used to log in Event Viewer 
  * *execbatch*: The .bat file that will have the initialization command.
  * *lockfile*: A text file that will be create every time that the java program runs. This file must contains the PID number of java process.
+
+ * This is an example of an execbatch property startJavaProcess.bat: 
+{{{
+cd c:\iptcfg\
+"c:\Program Files\java\jre\bin\java" -jar JavaIptProvisionerSERVER.jar
+}}}
